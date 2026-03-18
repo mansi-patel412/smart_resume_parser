@@ -72,7 +72,7 @@ This project is built using **Python and Streamlit**, focusing on automation, da
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/mansi-patel412/smart_resume_parser.git
 cd your-repo-name
 
 ### 2️⃣ Install dependencies
