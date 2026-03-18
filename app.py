@@ -117,7 +117,7 @@ if theme == "Light":
     }
 
     div[data-testid="stFileUploader"] button:hover {
-        background-color: #F3F4F6 !important;
+        background-color: #F3F4F6  !important;
     }
 
     /* =========================
@@ -193,6 +193,19 @@ if theme == "Light":
         background-color: #1D4ED8;
     }
 
+    /* Divider line fix */
+    hr {
+        border: none !important;
+        height: 1px !important;
+        background-color: #D1D5DB !important;  /* clean grey */
+        margin: 20px 0;
+    }
+
+    /* File uploader helper text (Limit 200MB...) */
+    [data-testid="stFileUploader"] small {
+    color: #000000 !important;   /* black text */
+    }                
+                            
     </style>
     """, unsafe_allow_html=True)
 
